@@ -5,5 +5,24 @@
     "email": "tridtsatx@users.noreply.github.com",
     "url": "https://github.com/tridtsatx"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "superpowers",
+      "source": "obra/superpowers",
+      "description": "Core skills library: brainstorming, TDD, systematic debugging, code review, parallel agents and worktrees",
+      "version": "6.3.0",
+      "author": "Jesse Vincent",
+      "category": "skills",
+      "keywords": ["skills", "tdd", "debugging", "brainstorming", "workflows"]
+    },
+    {
+      "name": "playwright",
+      "source": "./playwright",
+      "description": "Drive a real browser: navigate, click, fill forms, read the page and take screenshots, through the Playwright MCP server",
+      "version": "1.0.0",
+      "author": "tridtsat",
+      "category": "mcp",
+      "keywords": ["browser", "playwright", "mcp", "automation", "screenshots"]
+    }
+  ]
 }
