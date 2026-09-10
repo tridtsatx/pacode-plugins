@@ -45,6 +45,18 @@ my-plugin/
 What a plugin declares and pacode will not run is listed on the `/plugins`
 screen rather than dropped in silence.
 
+## What is listed here
+
+| Plugin | Upstream | Licence |
+|---|---|---|
+| [superpowers](https://github.com/obra/superpowers) | obra/superpowers | MIT |
+| playwright | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Apache-2.0 |
+
+`superpowers` is listed by pointing at its own repository rather than vendoring a
+copy here, so installing it always takes the upstream version. `playwright` is a
+thin manifest in this repository that starts the upstream MCP server with `npx`;
+the server itself is not vendored either.
+
 ## Browsing it
 
 ```
